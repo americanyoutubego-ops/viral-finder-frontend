@@ -16,9 +16,9 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg font-medium transition-all">
+          <a href="/search" className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg font-medium transition-all text-center">
             Почати пошук
-          </button>
+          </a>
           <button className="px-8 py-3 bg-[#1A1A24] hover:bg-[#252535] border border-[#2A2A38] rounded-lg font-medium transition-all">
             Як це працює
           </button>
